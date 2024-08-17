@@ -1,5 +1,5 @@
 # **UART overview**
-A universal asynchronous receiver-transmitter (UART) is a peripheral device for asynchronous serial communication in which the data format and transmission speeds are configurable. It sends data bits one by one, from the least significant to the most significant, framed by start and stop bits so the communication channel handles that precise timing.
+A universal asynchronous receiver transmitter (UART) is a peripheral device for asynchronous serial communication in which the data format and transmission speeds are configurable. It sends data bits one by one, from the least significant to the most significant, framed by start and stop bits so the communication channel handles that precise timing.
 UART transmitted data is organized into packets. Each packet contains 1 start bit, 5 to 9 data bits (depending on the UART), an optional parity bit, and 1 or 2 stop bits.
 
 ![image](https://github.com/user-attachments/assets/ade5a336-0b78-4ae4-b552-59b4a749d59b)
